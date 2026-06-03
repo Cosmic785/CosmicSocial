@@ -1,0 +1,40 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cosmic Social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌌 Cosmic Social</h1>
+
+<div class="profile">
+    <img id="avatar" src="https://via.placeholder.com/100" width="100">
+
+    <br><br>
+
+    <input id="username" placeholder="Username">
+
+    <input type="file" id="profilePic">
+
+    <button onclick="saveProfile()">Save Profile</button>
+</div>
+
+<hr>
+
+<textarea id="postBox" placeholder="What's on your mind?"></textarea>
+
+<input type="file" id="imageInput">
+
+<br><br>
+
+<button onclick="addPost()">Post</button>
+
+<h2>Feed</h2>
+
+<div id="feed"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

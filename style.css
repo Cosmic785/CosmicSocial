@@ -1,0 +1,50 @@
+body{
+    background:#111;
+    color:white;
+    font-family:Arial,sans-serif;
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.profile img{
+    border-radius:50%;
+    object-fit:cover;
+}
+
+textarea{
+    width:100%;
+    height:100px;
+    background:#222;
+    color:white;
+    border:none;
+    padding:10px;
+}
+
+input{
+    margin:5px;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+}
+
+.post{
+    background:#222;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+}
+
+.heartBtn{
+    font-size:28px;
+    border:none;
+    background:none;
+    cursor:pointer;
+}
